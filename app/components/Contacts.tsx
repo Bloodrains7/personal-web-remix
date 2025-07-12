@@ -11,7 +11,6 @@ import { ScrollArea } from './ui/scroll-area';
 
 const Contacts = () => {
     return (
-        <ScrollArea className="h-[calc(100vh-8rem)] w-full">
         <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-8 text-center">
                 Get In Touch
@@ -147,7 +146,6 @@ const Contacts = () => {
                 </Card>
             </div>
         </div>
-        </ScrollArea>
     );
 };
 

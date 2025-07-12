@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import {MenuItems} from "~/data/menuItems";
 import AboutMe from "~/components/AboutMe";
@@ -34,7 +33,7 @@ const Index = () => {
   };
 
   return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
+      <div className="min-h-[100dvh] bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
         {/* Background particles effect */}
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
@@ -47,31 +46,31 @@ const Index = () => {
           <div className={`transition-all duration-700 ease-in-out ${
               activeSection ? 'opacity-0 scale-95 pointer-events-none' : 'opacity-100 scale-100'
           }`}>
-            <div className="min-h-screen flex flex-col items-center justify-center p-8">
+            <div className="min-h-[100dvh] flex flex-col items-center justify-center p-4 sm:p-8">
               {/* Header */}
-              <div className="text-center mb-12 animate-fade-in">
-                <h1 className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent mb-4">
+              <div className="text-center mb-8 sm:mb-12 animate-fade-in">
+                <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent mb-4">
                   Software Engineer
                 </h1>
-                <p className="text-xl md:text-2xl text-slate-300 max-w-2xl mx-auto">
+                <p className="text-lg sm:text-xl md:text-2xl text-slate-300 max-w-2xl mx-auto px-4">
                   Senior Solution Architect with Hands-on Expertise
                 </p>
               </div>
 
               {/* Menu Grid */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl w-full">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 max-w-2xl w-full px-4">
                 {menuItems.map((item, index) => (
                     <Card
                         key={item.id}
-                        className={`group cursor-pointer border-0 bg-gradient-to-br ${item.color} p-[1px] hover:scale-105 transition-all duration-300 animate-fade-in`}
+                        className={`group cursor-pointer border-0 bg-gradient-to-br ${item.color} p-[1px] hover:scale-105 active:scale-95 transition-all duration-300 animate-fade-in touch-manipulation`}
                         style={{
                           animationDelay: `${index * 200}ms`
                         }}
                         onClick={() => setActiveSection(item.id)}
                     >
-                      <div className="bg-slate-900/90 backdrop-blur-sm rounded-lg p-8 h-full flex flex-col items-center justify-center text-center group-hover:bg-slate-800/90 transition-colors">
-                        <item.icon className="w-12 h-12 mb-4 text-white group-hover:scale-110 transition-transform" />
-                        <h3 className="text-xl font-semibold text-white">{item.label}</h3>
+                      <div className="bg-slate-900/90 backdrop-blur-sm rounded-lg p-6 sm:p-8 h-full flex flex-col items-center justify-center text-center group-hover:bg-slate-800/90 transition-colors">
+                        <item.icon className="w-10 h-10 sm:w-12 sm:h-12 mb-3 sm:mb-4 text-white group-hover:scale-110 transition-transform" />
+                        <h3 className="text-lg sm:text-xl font-semibold text-white">{item.label}</h3>
                       </div>
                     </Card>
                 ))}
@@ -80,16 +79,16 @@ const Index = () => {
           </div>
 
           {/* Content View */}
-          <div className={`absolute inset-0 transition-all duration-700 ease-in-out ${
+          <div className={`fixed inset-0 transition-all duration-700 ease-in-out ${
               activeSection ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-full pointer-events-none'
           }`}>
             {activeSection && (
-                <div className="min-h-screen p-8">
+                <div className="h-full overflow-y-auto p-4 sm:p-8">
                   {/* Back Button */}
                   <Button
                       onClick={handleBack}
                       variant="ghost"
-                      className="mb-8 text-white hover:bg-white/10 animate-fade-in"
+                      className="mb-6 sm:mb-8 text-white hover:bg-white/10 animate-fade-in touch-manipulation"
                   >
                     <ChevronLeft className="w-4 h-4 mr-2" />
                     Back to Menu
