@@ -15,7 +15,7 @@ export const ProjectItems = [
         technologies: ["Angular", "PrimeNG", "Tailwind CSS", "Spring WebFlux", "PostgreSQL", "OAuth", "Chart.js"],
         liveUrl: "https://www.qaron.tech/testing/",
         githubUrl: "#",
-        featured: false
+        featured: true
     },
     {
         title: "Automation",
@@ -42,7 +42,7 @@ export const ProjectItems = [
         technologies: ["Angular", "TypeScript", "JavaScript", "HTML", "CSS", "Bootstrap"],
         liveUrl: "#",
         githubUrl: "https://github.com/Bloodrains7/SkyroRestaurantFrontend",
-        featured: true
+        featured: false
     },
     {
         title: "Ferratum Group",
@@ -58,7 +58,7 @@ export const ProjectItems = [
         description: "Enterprise telecommunications portal for comprehensive service offering display and management. Built on Liferay platform, the portal provides customers with intuitive interface to browse telecommunications packages, compare services, and access detailed product information with seamless user experience.",
         image: "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=500&h=300&fit=crop",
         technologies: ["Liferay", "Java", "JavaScript", "CSS", "HTML", "PostgreSQL", "Velocity"],
-        liveUrl: "#",
+        liveUrl: "https://www.telekom.sk/",
         githubUrl: "#",
         featured: false
     },
