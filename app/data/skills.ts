@@ -15,7 +15,7 @@ export const Skills = [
         icon: Database,
         skills: [
             'Java', 'Spring Boot', 'Spring Security', 'Spring WebFlux', 'Spring GraphQL',
-            'Spring Batch', 'Spring JPA', 'Python', 'Django', 'DRF',
+            'Spring Batch', 'Spring JPA', 'Go', 'Python', 'Django', 'DRF',
             'PostgreSQL', 'Oracle SQL', 'R2DBC', 'GraphQL', 'gRPC', 'OAuth'
         ]
     },

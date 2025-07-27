@@ -5,7 +5,7 @@ export const Experiences = [
         location: "Bratislava, Slovak Republic",
         period: "March 2024 - Currently",
         description: "Leading architecture design for multiple enterprise projects including Qaron, Testing, Automation, and Robotics platforms. Managing development teams and implementing modern microservices architecture with reactive programming patterns. Designing suitable technologies and solutions across various business domains.",
-        technologies: ["Angular", "TypeScript", "JavaScript", "Java", "Spring Boot", "Spring Security", "Spring WebFlux", "Spring GraphQL", "Spring Batch", "Spring JPA", "PostgreSQL", "Docker", "Kubernetes", "OpenShift", "GraphQL", "gRPC", "RabbitMQ", "OAuth", "PrimeNG", "Tailwind CSS", "SASS", "NgRx", "RxJs", "Chart.js", "Vite", "Nx", "Federation Module", "Quill", "R2DBC", "Liquibase", "HashiCorp Vault", "Git", "GitLab", "Maven", "Nginx", "Traefik", "F5", "KeyCloak", "ownCloud", "CSS", "HTML", "UML", "MJML", "SQL", "Python", "Jsch", "Bootstrap"]
+        technologies: ["Angular", "TypeScript", "JavaScript", "Java", "Spring Boot", "Spring Security", "Spring WebFlux", "Spring GraphQL", "Spring Batch", "Spring JPA", "PostgreSQL", "Docker", "Kubernetes", "OpenShift", "GraphQL", "gRPC", "RabbitMQ", "OAuth", "PrimeNG", "Tailwind CSS", "SASS", "NgRx", "RxJs", "Chart.js", "Vite", "Nx", "Federation Module", "Quill", "R2DBC", "Liquibase", "HashiCorp Vault", "Git", "GitLab", "Maven", "Nginx", "Traefik", "F5", "KeyCloak", "ownCloud", "CSS", "HTML", "UML", "MJML", "SQL", "Go", "Python", "Jsch", "Bootstrap"]
     },
     {
         title: "Solution Architect / Fullstack Developer",
