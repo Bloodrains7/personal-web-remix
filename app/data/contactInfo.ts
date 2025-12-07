@@ -16,7 +16,7 @@ export const ContactInfo = [
     {
         icon: MapPin,
         label: "Location",
-        value: "Bratislava, Slovakia",
+        value: "Senec, Slovakia",
         link: "#"
     }
 ];
