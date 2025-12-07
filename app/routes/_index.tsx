@@ -50,10 +50,10 @@ const Index = () => {
               {/* Header */}
               <div className="text-center mb-8 sm:mb-12 animate-fade-in">
                 <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent mb-4">
-                  Software Engineer
+                  AI Platform Architect
                 </h1>
                 <p className="text-lg sm:text-xl md:text-2xl text-slate-300 max-w-2xl mx-auto px-4">
-                  Senior Solution Architect with Hands-on Expertise
+                    AI Platform Architect with Hands-on Expertise
                 </p>
               </div>
 

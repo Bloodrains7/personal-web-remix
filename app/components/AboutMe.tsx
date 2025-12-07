@@ -16,7 +16,7 @@ const AboutMe = () => {
                     <h3 className="text-2xl font-semibold text-white mb-6">Who I Am</h3>
                     <div className="space-y-4 text-slate-300">
                         <p>
-                            Solution Architect and Senior Generalist Software Engineer with extensive
+                            AI Platform Architect and Senior Generalist Software Engineer with extensive
                             experience in designing and implementing enterprise solutions. Currently at
                             QPP a.s., where I architect technologies for projects like Qaron, Testing,
                             Automation, and Robotics using Angular, Spring Boot, and modern technologies.

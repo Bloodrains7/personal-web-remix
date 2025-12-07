@@ -28,10 +28,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Ondrej Luknár - Solution Architect & Software Engineer</title>
+        <title>Ondrej Luknár - AI Platform Architect & Software Engineer</title>
         <meta
             name="description"
-            content="Solution Architect and Senior Software Engineer with 10+ years experience in Angular, Spring Boot, microservices, and enterprise solutions. Based in Bratislava, Slovakia."
+            content="AI Platform Architect and Senior Software Engineer with 10+ years experience in Angular, Spring Boot, microservices, and enterprise solutions. Based in Bratislava, Slovakia."
         />
         <meta
             name="keywords"
@@ -41,8 +41,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
         {/* Open Graph Meta Tags (Facebook, LinkedIn) */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Ondrej Luknár - Solution Architect & Software Engineer" />
-        <meta property="og:description" content="Solution Architect with hands-on expertise in enterprise software development. Specializing in Angular, Spring Boot, and microservices architecture." />
+        <meta property="og:title" content="Ondrej Luknár - AI Platform Architect & Software Engineer" />
+        <meta property="og:description" content="AI Platform Architect with hands-on expertise in enterprise software development. Specializing in Angular, Spring Boot, and microservices architecture." />
         <meta property="og:url" content="https://ondrej-luknar.eu" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content="Ondrej Luknár Portfolio" />
